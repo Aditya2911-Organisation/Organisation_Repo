@@ -44,7 +44,7 @@ jobs:
         uses: actions/upload-artifact@v4.6.0
         with:
           name: Artifacts_FIle
-          path: ${{github.workspace/a.out}}
+          path: ${{github.workspace}}/a.out
 
   Test:
     # The type of runner that the job will run on
